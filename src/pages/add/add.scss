@@ -1,0 +1,23 @@
+page-add {
+    ion-content
+    {
+        background-color: #ffdb2c!important;
+    }
+   .class{
+        list-style: none;
+        // height: 44px;
+        text-align: center;
+        float: left;
+        width: 25%;
+   }
+   #plus{
+       li{
+        list-style: none;
+        position: relative;
+        text-align: center;
+        width: 35%;
+        float: left;
+        margin: 110px 10px -100px 10px;
+       }
+   }
+}

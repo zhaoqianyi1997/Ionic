@@ -1,0 +1,58 @@
+page-bpage {
+    .touxiang{
+        background: url(../../assets/imgs/背景1.png) no-repeat;
+        text-align: center;
+        width: 100%;
+        height: 180px;
+        border: none;
+    img{
+        border-radius: 50%!important;
+        height: 120px;
+    }
+    }
+    h5{
+        margin: 0 0;
+    }
+    .dingdan{
+        position: absolute;
+        top: 170px;
+        left: 0;
+        height: 45px;
+        width: 100%;
+        background-color:rgb(238, 238, 238);
+    
+    .my{
+        float: left;
+    }
+    }
+    .right{
+        position: relative;
+        top: 0;
+        left: 205px;
+    }
+    .list{
+        // height: 80px;
+        div{
+        text-align: center;
+        float: left;
+        height: 80px;
+        width: 33.3%;
+        text-align: center;
+        margin: 35px 0 10px 0;
+        border:2px solid rgb(238, 238, 238);
+        }
+        
+        img{
+            text-align: center;
+            height: 35px;
+            width:35px;
+        }
+    }
+    ion-col{
+        border: 2px solid rgb(238, 238, 238);
+        height: 100px;
+        text-align: center
+    }
+}
+    
+    

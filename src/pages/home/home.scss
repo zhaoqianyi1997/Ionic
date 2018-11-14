@@ -1,0 +1,90 @@
+page-home {
+    .navList{
+        padding-left: 0!important;
+        margin: 0;
+        height: 44px;
+        line-height: 44px;
+        .first{
+            border-bottom:2px solid #ffdb2c;
+        }
+        li{
+            height: 44px;
+            text-align: center;
+            float: left;
+            width: 25%;
+            list-style: none;
+        }
+    }
+    #oh{
+        font-size:0.5em!important;
+    }
+    .ion-title{
+        text-align: center
+    }
+    .sli{
+        height:auto;
+        img{
+            width: 100%;
+        }
+    }
+    .subtitle{
+        letter-spacing: 5px;
+    }
+    .goods{
+        padding: 0;
+        img{
+            width: 100%;
+        }
+        li{
+            position: relative;
+            width: 45%;
+            float: left;
+            margin: 5px 0 5px 3%;
+            span{
+                display: block;
+                width: 26px;
+                height: 26px;
+                text-align: center;
+                line-height: 26px;
+                border-radius: 50%;
+                color: red;
+                position: absolute;
+                background: #fff;
+                right: 15px;
+                bottom: 25px;
+            }
+            p{
+                position: absolute;
+                width: 100%;
+                bottom:4px;
+                margin: 0;
+                color: #fff;
+                height: 30px;
+                line-height: 30px;
+                text-align: center;
+                background-color:rgba(0,0,0,0.5);
+            }
+        }
+    }
+    .show{
+        height: 120px;
+        width: 33.3%;
+        float: left;
+        border:10px solid #fff;
+        text-align: center;
+        line-height: 100px;
+        color: #fff;
+        font-size: 1.2em;
+    }
+    #show1{
+        background: url(../../assets/imgs/客厅.png)
+    }
+    #show2{
+        background: url(../../assets/imgs/书房.png)
+    }
+    #show3{
+        background: url(../../assets/imgs/门厅.png)
+    }
+
+}
+// .sli是图片轮播 .navList是导航栏 

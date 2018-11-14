@@ -1,0 +1,25 @@
+page-apage{
+    
+
+    ion-content{
+        background: url(../../assets/imgs/img1.png);
+        background-size:cover;
+        .box{
+            ion-item{
+                background: transparent;
+                color:white;
+            }
+            button{
+                color: white;
+                margin-top:80px;
+            }
+            p{
+                color: white;
+                text-align:center;
+            }
+        }
+    }
+    
+
+
+}
